@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowUnusedLabels": true,
+    "allowJs": true,
+    "noUnusedLocals": false,
+    "downlevelIteration": true,
+    "outDir": "build",
+    "alwaysStrict": true,
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "es5",
+      "dom",
+      "scripthost",
+      "esnext.asynciterable",
+      "esnext"
+    ],
+    "jsxFactory": "React.createElement",
+    "noEmitHelpers": false,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "allowJs": true,
+  "compileOnSave": true,
+  "include": ["src", "tools"],
+  "typeRoots": ["./node_modules/@types", "./src/@types"],
+  "exclude": []
+}

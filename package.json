@@ -1,0 +1,22 @@
+{
+  "name": "@gratico/buildpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "ts-morph": "^9.1.0",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8"
+  }
+}
